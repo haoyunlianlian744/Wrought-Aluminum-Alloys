@@ -56,25 +56,5 @@ It generates:
 
 These figures are used in the main manuscript and supplementary material.
 
-## Recommended Execution Order
-
-The notebooks are recommended to be run in the following order:
-
-2.dedup_and_merge  
-→ 3.missing_value_imputation  
-→ 4.outlier_detection  
-→ 5.distribution_evaluation  
-→ 6.train_test_split  
-→ 7.model_selection_6  
-→ 8.visualization
-
-## Notes
-
-The final formal modeling uses the cleaned dataset and 16 directly measurable input variables:
-
-Si, Fe, Cu, Mn, Mg, Cr, Zn, V, Ti, Zr, Ni, Be, Sc, Tsol, Tage, tage.
-
-The prediction targets are:
-- YS
-- UTS
-- El
+### Dataset
+This study compiled 524 valid wrought aluminum alloy samples from literature and industrial experiments. YS, UTS and elongation were selected as prediction targets, and alloy compositions along with heat treatment parameters were used as input features. Among them, 429 samples were sourced from Hu et al. (2024, MSEA, DOI: 10.1016/j.msea.2024.147381), whose original dataset is available at https://github.com/UQ43815685/ageing_behaviour_Al_alloys_with_feature_screening.The rest data were collected from supplementary literature and self-performed experiments. The source information of all samples is specified in the data table. 
