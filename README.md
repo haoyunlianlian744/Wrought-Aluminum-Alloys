@@ -57,4 +57,6 @@ It generates:
 These figures are used in the main manuscript and supplementary material.
 
 ### Dataset
-This study compiled 524 valid wrought aluminum alloy samples from literature and industrial experiments. YS, UTS and elongation were selected as prediction targets, and alloy compositions along with heat treatment parameters were used as input features. Among them, 429 samples were sourced from Hu et al. (2024, MSEA, DOI: 10.1016/j.msea.2024.147381), whose original dataset is available at https://github.com/UQ43815685/ageing_behaviour_Al_alloys_with_feature_screening.The rest data were collected from supplementary literature and self-performed experiments. The source information of all samples is specified in the data table. 
+This study compiled 524 valid wrought aluminum alloy samples from literature and industrial experiments. YS, UTS and elongation were selected as prediction targets, and alloy compositions along with heat treatment parameters were used as input features. Among them, 429 samples were sourced from Hu et al. (2024, MSEA, DOI: 10.1016/j.msea.2024.147381), whose original dataset is available at https://github.com/UQ43815685/ageing_behaviour_Al_alloys_with_feature_screening.
+
+The rest data were collected from supplementary literature and self-performed experiments. The source information of all samples is specified in the data table. 
