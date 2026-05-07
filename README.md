@@ -48,9 +48,7 @@ Main tasks include:
 - export of final result tables and prediction details
 
 ### 8.nsga2_AHS2_optimization.ipynb
-This notebook performs machine-learning-assisted NSGA-II multi-objective optimization for the T6 aging process of AHS-2 aluminum alloy. The alloy composition and solution-treatment temperature are fixed, while aging temperature and aging time are used as optimization variables to balance yield strength, ultimate tensile strength, and elongation.
-
-The workflow includes AHS-2 subset extraction, surrogate-model re-tuning, Pareto-front search, weighted knee-point selection, and optimized process-window determination. 
+Adopting a machine learning-assisted NSGA-II multi-objective optimization method, the T6 aging process of AHS-2 aluminum alloy was optimized. With the alloy composition and solution treatment temperature kept constant, aging temperature and aging time were taken as optimization variables to balance yield strength, ultimate tensile strength and elongation. The research involves the extraction of the AHS-2 alloy subset, retuning of the surrogate model, Pareto frontier searching, weighted knee point selection, and the determination of the optimized process window.
 
 ### 9.visualization.ipynb
 Used for result visualization.  
