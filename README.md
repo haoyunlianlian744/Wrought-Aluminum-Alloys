@@ -47,7 +47,10 @@ Main tasks include:
 - independent test-set evaluation
 - export of final result tables and prediction details
 
-### 8.visualization.ipynb
+### 8.nsga2_AHS2_optimization.ipynb
+This notebook optimizes the T6 heat treatment parameters (aging temperature `Tage` and aging time `tage`) for AHS-2 aluminum alloy using NSGA-II. It must be run after File 7, which provides the champion model type and best hyperparameters saved in `model_selection/`. The AHS-2 subset (34 samples) is extracted from the full dataset and used to re-tune the surrogate models for domain-specific accuracy. NSGA-II then searches the continuous process space (Tage: 150~185°C, tage: 5~10h) to simultaneously maximize YS, UTS, and El, yielding an optimal process window of Tage = 171.0~172.5°C and tage = 5.2~6.8h.
+
+### 9.visualization.ipynb
 Used for result visualization.  
 It generates:
 - multi-model comparison plots
@@ -57,6 +60,8 @@ It generates:
 These figures are used in the main manuscript and supplementary material.
 
 ### Dataset
-This study compiled 524 valid wrought aluminum alloy samples from literature and industrial experiments. YS, UTS and elongation were selected as prediction targets, and alloy compositions along with heat treatment parameters were used as input features. Among them, 429 samples were sourced from Hu et al. (2024, MSEA, DOI: 10.1016/j.msea.2024.147381), whose original dataset is available at https://github.com/UQ43815685/ageing_behaviour_Al_alloys_with_feature_screening.
+This study compiled 524 valid wrought aluminum alloy samples from literature and industrial experiments. YS, UTS and elongation were selected as prediction targets, and alloy compositions along with heat treatment parameters were used as input features. The processed dataset supporting the findings of this study is available in Mendeley Data at https://doi.org/10.17632/gw8fvv7wth.1.
+
+Among them, 429 samples were sourced from Hu et al. (2024, MSEA, DOI: 10.1016/j.msea.2024.147381), whose original dataset is available at https://github.com/UQ43815685/ageing_behaviour_Al_alloys_with_feature_screening.
 
 The rest data were collected from supplementary literature and self-performed experiments. The source information of all samples is specified in the data table. 
